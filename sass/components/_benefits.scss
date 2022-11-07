@@ -1,0 +1,113 @@
+.pictures-wrap {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 94px;
+  }
+  
+  .list-item-portfolio {
+    list-style: none;
+    background: #ffffff;
+    width: 370px;
+  }
+  
+  .portfolio-item-link {
+    display: block;
+  }
+  
+  .portfolio-item-link:hover,
+  :focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
+  
+  .portfolio-item-link:hover .image-text-port {
+    transform: translateY(0%);
+  }
+  
+  .image-text-wrap {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .image-text-port {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: var(--sub-text-color);
+    background-color: rgba(33, 150, 243, 0.9);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: calc(28 / 18);
+    padding: 63px 24px;
+    height: 100%;
+    transform: translateY(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .item-wrap {
+    padding: 20px 24px;
+    border: 1px solid #eeeeee;
+    border-top: 0;
+    display: block;
+  }
+  
+  .title-port {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--main-text-color);
+  }
+  
+  .sub-title-port {
+    margin-top: 4px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.8;
+    color: var(--text-contact);
+  }
+  
+  .benefits-list {
+    display: flex;
+    column-gap: 30px;
+  }
+  
+  .benefits-image {
+    width: 270px;
+    height: 120px;
+    background-color: #f5f4fa;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 30px;
+  }
+  
+  .benefits-icon-link {
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 120px;
+  }
+  
+  .title-benefits {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 0.06em;
+    color: var(--main-text-color);
+  }
+  
+  .sub-title {
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.7;
+    color: var(--text-contact);
+    max-width: 322px;
+  }
+  
