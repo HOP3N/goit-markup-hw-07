@@ -66,19 +66,20 @@
     align-items: center;
     justify-content: center;
     border-radius: 50%;
+
+      &:hover,
+      &:focus {
+        fill: var(--sub-text-color);
+        background-color: var(--text-hover-color);
+    }
   }
   
   .team-soc-icon {
     fill: #afb1b8;
+  
+      .team-soc-link:hover &,
+      .team-soc-link:focus & {
+        fill: var(--sub-text-color);
+    }
   }
   
-  .team-soc-link:hover,
-  .team-soc-link:focus {
-    fill: var(--sub-text-color);
-    background-color: var(--text-hover-color);
-  }
-  
-  .team-soc-link:hover .team-soc-icon,
-  .team-soc-link:focus .team-soc-icon {
-    fill: var(--sub-text-color);
-  }

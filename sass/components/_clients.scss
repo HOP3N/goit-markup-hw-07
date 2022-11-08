@@ -12,25 +12,28 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+      &:hover,
+      &:focus {
+      border-color: var(--text-hover-color);
+      fill: var(--text-hover-color);
+    }
   }
   
-  .clients-logo-link:hover,
-  .clients-logo-link:focus {
-    border-color: var(--text-hover-color);
-    fill: var(--text-hover-color);
-  }
+  
   
   .clients-logo {
     fill: #afb1b8;
+
+    .clients-logo-link:hover &,
+    .clients-logo-link:focus & {
+      fill: var(--text-hover-color);
+      background-color: transparent;
+    }
+    &:hover,
+    :focus {
+      fill: var(--text-hover-color);
+    }
   }
   
-  .clients-logo-link:hover .clients-logo,
-  .clients-logo-link:focus .clients-logo {
-    fill: var(--text-hover-color);
-    background-color: transparent;
-  }
-  
-  .clients-logo:hover,
-  :focus {
-    fill: var(--text-hover-color);
-  }
+ 

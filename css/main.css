@@ -79,9 +79,8 @@ img {
 .portfolio-item-link {
   display: block;
 }
-
 .portfolio-item-link:hover,
-:focus {
+.portfolio-item-link :focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
@@ -282,19 +281,15 @@ img {
   justify-content: center;
   border-radius: 50%;
 }
-
-.team-soc-icon {
-  fill: #afb1b8;
-}
-
-.team-soc-link:hover,
-.team-soc-link:focus {
+.team-soc-link:hover, .team-soc-link:focus {
   fill: var(--sub-text-color);
   background-color: var(--text-hover-color);
 }
 
-.team-soc-link:hover .team-soc-icon,
-.team-soc-link:focus .team-soc-icon {
+.team-soc-icon {
+  fill: #afb1b8;
+}
+.team-soc-link:hover .team-soc-icon, .team-soc-link:focus .team-soc-icon {
   fill: var(--sub-text-color);
 }
 
@@ -313,9 +308,7 @@ img {
   justify-content: center;
   align-items: center;
 }
-
-.clients-logo-link:hover,
-.clients-logo-link:focus {
+.clients-logo-link:hover, .clients-logo-link:focus {
   border-color: var(--text-hover-color);
   fill: var(--text-hover-color);
 }
@@ -323,15 +316,12 @@ img {
 .clients-logo {
   fill: #afb1b8;
 }
-
-.clients-logo-link:hover .clients-logo,
-.clients-logo-link:focus .clients-logo {
+.clients-logo-link:hover .clients-logo, .clients-logo-link:focus .clients-logo {
   fill: var(--text-hover-color);
   background-color: transparent;
 }
-
 .clients-logo:hover,
-:focus {
+.clients-logo :focus {
   fill: var(--text-hover-color);
 }
 
@@ -384,7 +374,6 @@ img {
   text-align: center;
   display: inline-flex;
 }
-
 .modal-close:hover {
   fill: var(--text-hover-color);
   background-color: transparent;
@@ -425,6 +414,9 @@ img {
   border-radius: 4px;
   padding-left: 30px;
 }
+.modal-input:focus {
+  outline-color: var(--text-hover-color);
+}
 
 .modal-input-wrap {
   position: relative;
@@ -436,19 +428,14 @@ img {
   top: 50%;
   transform: translateY(-50%);
 }
+.modal-input:focus + .modal-input-icon {
+  fill: var(--text-hover-color);
+}
 
 .modal-field,
 .modal-label {
   display: block;
   margin-bottom: 10px;
-}
-
-.modal-input:focus {
-  outline-color: var(--text-hover-color);
-}
-
-.modal-input:focus + .modal-input-icon {
-  fill: var(--text-hover-color);
 }
 
 .modal-label-text {
@@ -476,11 +463,9 @@ img {
   padding: 12px 16px;
   resize: none;
 }
-
 .modal-textarea::placeholder {
   color: rgba(117, 117, 117, 0.5);
 }
-
 .modal-textarea:focus {
   outline-color: var(--text-hover-color);
 }
@@ -505,7 +490,6 @@ img {
   fill: transparent;
   align-self: center;
 }
-
 .input-check:checked + .check-text span {
   background-color: var(--text-hover-color);
   border-color: transparent;
@@ -588,9 +572,8 @@ img {
   background-color: transparent;
   padding-bottom: 30px;
 }
-
 .header-link:hover,
-:focus {
+.header-link :focus {
   fill: var(--text-hover-color);
   background-color: transparent;
 }
@@ -601,7 +584,6 @@ img {
   background-color: none;
   position: relative;
 }
-
 .header-link.current::after {
   content: "";
   background-color: var(--text-hover-color);
@@ -663,19 +645,12 @@ img {
   gap: 10px;
   fill: currentColor;
 }
+.cont-pic-list:hover, .cont-pic-list:focus {
+  fill: var(--text-hover-color);
+}
 
 .contacts-icon-link:hover,
 .contacts-icon-link:focus {
-  fill: var(--text-hover-color);
-}
-
-.cont-pic-list:hover,
-.cont-pic-list:focus {
-  fill: var(--text-hover-color);
-}
-
-.contacts-icon-link:hover .contacts-icon,
-.contacts-icon-link:focus .contacts-icon {
   fill: var(--text-hover-color);
 }
 
@@ -685,6 +660,9 @@ img {
   align-items: center;
   gap: 10px;
   fill: var(--text-contact);
+}
+.contacts-icon-link:hover .contacts-icon, .contacts-icon-link:focus .contacts-icon {
+  fill: var(--text-hover-color);
 }
 
 .hero {
@@ -730,7 +708,6 @@ img {
   margin: 0 auto;
   display: block;
 }
-
 .btn-main-index:hover {
   color: var(--sub-text-color);
   background-color: var(--text-hover-color);
@@ -745,10 +722,6 @@ img {
 }
 
 .btn-main {
-  padding: 6px 22px;
-}
-
-.btn-main {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -760,10 +733,10 @@ img {
   background-color: #f5f4fa;
   border-radius: 4px;
   border-color: transparent;
+  padding: 6px 22px;
 }
-
 .btn-main:hover,
-:focus {
+.btn-main :focus {
   color: var(--text-hover-color);
   background-color: transparent;
   color: var(--sub-text-color);
