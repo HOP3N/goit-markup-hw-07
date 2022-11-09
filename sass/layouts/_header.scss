@@ -140,7 +140,7 @@
   
   .connect__icon-link:hover,
   .connect__icon-link:focus {
-    fill: var(--text-hover-color);
+    color: var(--text-hover-color);
   }
   
   .connect__icon {
@@ -148,19 +148,15 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    // fill: var(--text-contact);
+    fill: currentColor;
 
-    .connect__icon-link &:focus,
-    .connect__icon-link &:focus {
-    fill: var(--text-hover-color);
-  }
-  
-  
-  }
+      &:hover,
+      &:focus {
+        color: var(--text-hover-color);
+    }
 
-  
-  // .connect:hover .connect__icon,
-  // .connect:focus .connect__icon {
-  //   fill: var(--text-hover-color);
-  //   background-color: transparent;
-  // }
+    // .connect__icon-mail &:hover,
+    // .connect__icon-link &:focus {
+    // color: var(--text-hover-color);
+    // }
+  }

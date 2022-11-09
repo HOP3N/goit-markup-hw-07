@@ -644,7 +644,7 @@ img {
 
 .connect__icon-link:hover,
 .connect__icon-link:focus {
-  fill: var(--text-hover-color);
+  color: var(--text-hover-color);
 }
 
 .connect__icon {
@@ -652,9 +652,10 @@ img {
   display: flex;
   align-items: center;
   gap: 10px;
+  fill: currentColor;
 }
-.connect__icon-link .connect__icon:focus, .connect__icon-link .connect__icon:focus {
-  fill: var(--text-hover-color);
+.connect__icon:hover, .connect__icon:focus {
+  color: var(--text-hover-color);
 }
 
 .hero {
