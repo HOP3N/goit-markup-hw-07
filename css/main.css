@@ -513,7 +513,7 @@ img {
   display: flex;
 }
 
-.header-port {
+.header__port {
   border-bottom: 1px solid #ececec;
 }
 
@@ -524,7 +524,7 @@ img {
   margin: 0 auto;
 }
 
-.header-main {
+.header__main {
   display: flex;
 }
 
@@ -548,11 +548,11 @@ img {
   margin-right: 93px;
 }
 
-.logo-blue {
+.logo--blue {
   color: var(--text-hover-color);
 }
 
-.logo-black {
+.logo--black {
   color: var(--main-text-color);
 }
 
@@ -642,9 +642,9 @@ img {
   fill: var(--text-hover-color);
 }
 
-.connect__icon-link:hover,
-.connect__icon-link:focus {
-  color: var(--text-hover-color);
+.connect__icon--link:hover,
+.connect__icon--link:focus {
+  fill: var(--text-hover-color);
 }
 
 .connect__icon {
@@ -653,9 +653,6 @@ img {
   align-items: center;
   gap: 10px;
   fill: currentColor;
-}
-.connect__icon:hover, .connect__icon:focus {
-  color: var(--text-hover-color);
 }
 
 .hero {
