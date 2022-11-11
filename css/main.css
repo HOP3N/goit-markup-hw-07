@@ -410,6 +410,7 @@ img {
   top: 314px;
   color: var(--main-text-color);
   background-color: var(--sub-text-color);
+  border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   padding-left: 30px;
 }
@@ -435,6 +436,12 @@ img {
 .modal-label {
   display: block;
   margin-bottom: 10px;
+}
+
+.modal-check {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
 }
 
 .modal-label-text {
