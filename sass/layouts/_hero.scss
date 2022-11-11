@@ -45,9 +45,9 @@
     margin: 0 auto;
     display: block;
 
-        &:hover {
-          color: var(--sub-text-color);
-          background-color: var(--text-hover-color);
+    &:hover {
+      color: var(--text-hover-color);
+      background-color: var(--sub-text-color);
     }
   }
   

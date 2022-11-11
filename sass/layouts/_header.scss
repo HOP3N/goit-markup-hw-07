@@ -86,8 +86,6 @@
     }
   }
   
-  
-  
   .menu {
     display: flex;
     gap: 30px;
@@ -101,62 +99,24 @@
     justify-content: flex-end;
   }
   
-  .connect__mail,
-  .connect__number {
+  .menu__link {
     font-weight: 500;
     letter-spacing: 0.02em;
     color: var(--text-contact);
     fill: currentColor;
-  }
-  
-  .connect__mail {
-    margin-right: 30px;
-  }
-  
-  .menu__item:hover .connect__mail,
-  .menu__item:focus .connect__mail {
-    color: var(--text-hover-color);
-    background-color: transparent;
-  }
-  
-  .menu__item:hover .connect__number,
-  .menu__item:focus .connect__number {
-    color: var(--text-hover-color);
-    background-color: transparent;
-  }
-  
-  
-
-  
-  
-  
-  // .connect__icon--link:hover,
-  // .connect__icon--link:focus {
-  //       .connect__icon {        
-  //         fill: var(--text-hover-color);
-  //       } 
-  // }
-  
-
-  
-  .menu__link {
     text-align: center;
     display: flex;
     align-items: center;
     gap: 10px;
-    color: var(--text-contact);
+    margin-right: 30px;
 
     &:hover,
     &:focus {
     color: var(--text-hover-color);
+    background-color: transparent;
   }
   }
   
   .connect__icon {
     fill: currentColor;
   }
-
-    
-
-    
-  
