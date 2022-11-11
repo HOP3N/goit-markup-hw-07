@@ -125,23 +125,9 @@
     background-color: transparent;
   }
   
-  .connect {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    fill: currentColor;
+  
 
-        &:hover,
-        &:focus {
-      fill: var(--text-hover-color);
-    }
-  }
-
-  .connect__icon--link:hover,
-  .connect__icon--link:focus {
-    fill: var(--text-hover-color);
-  }
+  
   
   
   // .connect__icon--link:hover,
@@ -153,17 +139,22 @@
   
 
   
-  .connect__icon {
+  .menu__link {
     text-align: center;
     display: flex;
     align-items: center;
     gap: 10px;
+    color: var(--text-contact);
+
+    &:hover,
+    &:focus {
+    color: var(--text-hover-color);
+  }
+  }
+  
+  .connect__icon {
     fill: currentColor;
   }
-  // .connect__icon:hover,
-  // .connect__icon:focus {
-  //       fill: var(--text-hover-color);
-  //     }
 
     
 

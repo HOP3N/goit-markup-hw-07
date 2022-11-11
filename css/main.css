@@ -631,27 +631,18 @@ img {
   background-color: transparent;
 }
 
-.connect {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  fill: currentColor;
-}
-.connect:hover, .connect:focus {
-  fill: var(--text-hover-color);
-}
-
-.connect__icon--link:hover,
-.connect__icon--link:focus {
-  fill: var(--text-hover-color);
-}
-
-.connect__icon {
+.menu__link {
   text-align: center;
   display: flex;
   align-items: center;
   gap: 10px;
+  color: var(--text-contact);
+}
+.menu__link:hover, .menu__link:focus {
+  color: var(--text-hover-color);
+}
+
+.connect__icon {
   fill: currentColor;
 }
 
