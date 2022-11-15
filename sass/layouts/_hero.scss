@@ -46,8 +46,8 @@
     display: block;
 
     &:hover {
-      color: var(--text-hover-color);
-      background-color: var(--sub-text-color);
+      color: var(--sub-text-color);
+      background-color: var(--main-text-color);
     }
   }
   

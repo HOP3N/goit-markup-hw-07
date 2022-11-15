@@ -684,8 +684,8 @@ img {
   display: block;
 }
 .btn-main-index:hover {
-  color: var(--text-hover-color);
-  background-color: var(--sub-text-color);
+  color: var(--sub-text-color);
+  background-color: var(--main-text-color);
 }
 
 .btn-main-wrap {
