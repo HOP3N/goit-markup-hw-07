@@ -493,7 +493,7 @@ img {
   border: 2px solid var(--main-text-color);
   border-radius: 2px;
   display: block;
-  margin-right: 7px;
+  margin: 0px 7px 0px 18px;
   display: flex;
   align-items: center;
   justify-content: center;
