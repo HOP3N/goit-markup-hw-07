@@ -586,7 +586,7 @@ img {
 }
 .header__link:hover,
 .header__link :focus {
-  fill: var(--text-hover-color);
+  color: var(--text-hover-color);
   background-color: transparent;
 }
 
