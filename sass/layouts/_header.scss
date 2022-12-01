@@ -50,7 +50,12 @@
   .menu__item {
     list-style: none;
     background-color: none;
-
+    
+    &:hover,
+      :focus {
+        color: var(--text-hover-color);
+        background-color: transparent;
+    }
   }
   
   .header__link {
@@ -61,7 +66,8 @@
     letter-spacing: 0.02em;
     color: var(--main-text-color);
     background-color: transparent;
-    padding-bottom: 30px;
+    padding: 32px 0px 32px;
+    display: block;
 
       &:hover,
       :focus {
@@ -70,6 +76,15 @@
     }
   }
 
+  .menu__item .header__link {
+
+    &:hover,
+      :focus {
+        color: var(--text-hover-color);
+        background-color: transparent;
+    }
+  }
+  
   .header__link.current {
     color: var(--text-hover-color);
     list-style: none;
@@ -97,7 +112,7 @@
   .menu__connect {
     display: flex;
     align-items: center;
-    margin-left: 200px;
+    margin-left: auto;
     justify-content: flex-end;
   }
   
