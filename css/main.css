@@ -291,6 +291,7 @@ img {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-soc-link:hover, .team-soc-link:focus {
   fill: var(--sub-text-color);
@@ -318,6 +319,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients-logo-link:hover, .clients-logo-link:focus {
   border-color: var(--text-hover-color);
@@ -566,19 +568,23 @@ img {
   line-height: 1.19;
   background-color: transparent;
   margin-right: 93px;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .logo--title {
   color: var(--text-hover-color);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .logo--subtitle {
   color: var(--main-text-color);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu__item {
   list-style: none;
   background-color: none;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .menu__item:hover,
 .menu__item :focus {
@@ -603,6 +609,9 @@ img {
   background-color: transparent;
 }
 
+.menu__item .header__link {
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .menu__item .header__link:hover,
 .menu__item .header__link :focus {
   color: var(--text-hover-color);
@@ -699,6 +708,8 @@ img {
   color: var(--sub-text-color);
   background-color: var(--text-hover-color);
   border: 0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
   margin: 0 auto;
   display: block;
 }
@@ -725,8 +736,9 @@ img {
   color: var(--main-text-color);
   cursor: pointer;
   background-color: #f5f4fa;
+  border-radius: 4px;
   border: none;
-  border-color: transparent;
+  padding: 6px 23px;
 }
 .btn-main:hover,
 .btn-main :focus {
