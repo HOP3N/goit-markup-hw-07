@@ -1,4 +1,4 @@
-.clients-list {
+.clients__list {
     display: flex;
     justify-content: center;
     gap: 30px;
@@ -6,7 +6,7 @@
 
   
   
-  .clients-logo-link {
+  .clients__link {
     width: 170px;
     height: 92px;
     border: 1px solid #afb1b8;
@@ -25,11 +25,11 @@
   
   
   
-  .clients-logo {
+  .clients__logo {
     fill: #afb1b8;
 
-    .clients-logo-link:hover &,
-    .clients-logo-link:focus & {
+    .clients__link:hover &,
+    .clients__link:focus & {
       fill: var(--text-hover-color);
       background-color: transparent;
     }
