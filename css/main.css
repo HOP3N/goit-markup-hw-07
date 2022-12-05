@@ -189,13 +189,7 @@ img {
   padding-top: 0;
 }
 
-.services-list {
-  display: flex;
-  column-gap: 30px;
-  list-style: none;
-}
-
-.title-services {
+.services__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -205,11 +199,17 @@ img {
   margin-bottom: 50px;
 }
 
-.image-index-wrap {
+.services__list {
+  display: flex;
+  column-gap: 30px;
+  list-style: none;
+}
+
+.services__wrap {
   position: relative;
 }
 
-.image-text-index {
+.services__wrap-text {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
