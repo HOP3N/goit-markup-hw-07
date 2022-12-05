@@ -702,7 +702,7 @@ img {
   margin-bottom: 30px;
 }
 
-.btn-main-index {
+.hero__btn {
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -719,7 +719,8 @@ img {
   margin: 0 auto;
   display: block;
 }
-.btn-main-index:hover {
+.hero__btn:hover,
+.hero__btn :focus {
   color: var(--sub-text-color);
   background-color: var(--main-text-color);
 }
