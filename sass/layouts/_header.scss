@@ -40,25 +40,25 @@
     line-height: 1.19;
     background-color: transparent;
     margin-right: 93px;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
   }
   
   .logo__title {
     color: var(--text-hover-color);
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
   .logo__sub-title {
     color: var(--main-text-color);
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
   
   .menu__item {
     list-style: none;
     background-color: none;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
     &:hover,
       :focus {
@@ -77,6 +77,7 @@
     background-color: transparent;
     padding: 32px 0px 32px;
     display: block;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 
       &:hover,
@@ -87,13 +88,12 @@
   }
 
   .menu__item .header__link {
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     &:hover,
       :focus {
         color: var(--text-hover-color);
         background-color: transparent;
-        
     }
   }
   
@@ -138,6 +138,8 @@
     align-items: center;
     gap: 10px;
     margin-right: 30px;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 
     &:hover,
     &:focus {
