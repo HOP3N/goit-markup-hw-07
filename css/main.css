@@ -688,7 +688,8 @@ img {
   margin-right: 30px;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.menu__link:hover, .menu__link:focus {
+.menu__link:hover,
+.menu__link :focus {
   color: var(--text-hover-color);
   background-color: transparent;
 }
@@ -720,10 +721,7 @@ img {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
-  max-width: 696px;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
+  max-width: 1200px;
   margin-bottom: 30px;
 }
 
@@ -785,6 +783,7 @@ img {
 
 .btn-main-port {
   list-style: none;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .btn-main-port:hover,
 .btn-main-port :focus {
@@ -860,7 +859,7 @@ img {
   flex-direction: column;
   align-content: center;
   display: flex;
-  margin-left: 70px;
+  margin-left: auto;
 }
 
 .title-soc-footer {
