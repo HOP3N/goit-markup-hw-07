@@ -146,6 +146,11 @@ img {
   padding: 94px 0px;
 }
 
+.benefits__wrap {
+  padding-bottom: 16px;
+  text-align: center;
+}
+
 .benefits__list {
   display: flex;
   column-gap: 30px;
