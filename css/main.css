@@ -708,7 +708,9 @@ img {
   text-transform: uppercase;
   color: #ffffff;
   max-width: 696px;
-  margin: auto;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
   margin-bottom: 30px;
 }
 

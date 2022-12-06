@@ -16,6 +16,10 @@
     align-items: center;
     margin: 0 auto;
   }
+
+  .container {
+    
+  }
   
   .hero__title {
     font-style: normal;
@@ -26,9 +30,16 @@
     text-transform: uppercase;
     color: #ffffff;
     max-width: 696px;
-    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
     margin-bottom: 30px;
   }
+
+//   .br {
+//     display: block;
+//     margin: 10px 0;
+//  }
   
   .hero__btn {
     font-style: normal;
