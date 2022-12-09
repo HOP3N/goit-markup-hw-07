@@ -61,11 +61,8 @@ img {
   overflow: hidden;
 }
 
-.list__item {
+.pics__list {
   list-style: none;
-}
-
-.pictures-wrap {
   display: flex;
   gap: 30px;
   justify-content: center;
@@ -74,33 +71,33 @@ img {
   padding-bottom: 94px;
 }
 
-.list-item-portfolio {
+.pics__item {
   list-style: none;
   background: #ffffff;
   width: 370px;
 }
 
-.portfolio-item-link {
+.pics__link {
   display: block;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.portfolio-item-link:hover,
-.portfolio-item-link :focus {
+.pics__link:hover,
+.pics__link :focus {
   color: var(--text-hover-color);
   background-color: transparent;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.portfolio-item-link:hover .image-text-port {
+.pics__link:hover .pics__wrap-text {
   transform: translateY(0%);
 }
 
-.image-text-wrap {
+.pics__wrap {
   position: relative;
   overflow: hidden;
 }
 
-.image-text-port {
+.pics__wrap-text {
   position: absolute;
   top: 0;
   left: 0;
@@ -115,20 +112,20 @@ img {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.item-wrap {
+.pics__title-wrap {
   padding: 20px 24px;
   border: 1px solid #eeeeee;
   border-top: 0;
   display: block;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.item-wrap:hover,
-.item-wrap :focus {
+.pics__title-wrap:hover,
+.pics__title-wrap :focus {
   color: var(--text-hover-color);
   background-color: transparent;
 }
 
-.title-port {
+.pics__title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -136,7 +133,7 @@ img {
   color: var(--main-text-color);
 }
 
-.sub-title-port {
+.pics__subtitle {
   margin-top: 4px;
   font-weight: 400;
   font-size: 16px;
@@ -239,6 +236,7 @@ img {
 .team {
   background: #f5f4fa;
   padding-bottom: 94px;
+  padding-top: 94px;
 }
 
 .team__title {
@@ -326,6 +324,11 @@ img {
 }
 .team__soc-link:hover .team__soc-icon, .team__soc-link:focus .team__soc-icon {
   fill: var(--sub-text-color);
+}
+
+.clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .clients__title {
@@ -595,11 +598,6 @@ img {
   display: flex;
 }
 
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .navigation {
   display: flex;
   align-items: center;
@@ -776,7 +774,7 @@ img {
   background-color: var(--text-hover-color);
 }
 
-.btn-main-wrap {
+.btn__main--wrap {
   display: flex;
   gap: 8px;
   justify-content: center;
@@ -784,7 +782,20 @@ img {
   padding-bottom: 56px;
 }
 
-.btn-main {
+.btn__list {
+  list-style: none;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.btn__list:hover,
+.btn__list :focus {
+  color: var(--text-hover-color);
+  background-color: transparent;
+  color: var(--sub-text-color);
+  background-color: var(--text-hover-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.btn__main {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -799,21 +810,8 @@ img {
   border: none;
   padding: 6px 23px;
 }
-.btn-main:hover,
-.btn-main :focus {
-  color: var(--text-hover-color);
-  background-color: transparent;
-  color: var(--sub-text-color);
-  background-color: var(--text-hover-color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-}
-
-.btn-main-port {
-  list-style: none;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.btn-main-port:hover,
-.btn-main-port :focus {
+.btn__main:hover,
+.btn__main :focus {
   color: var(--text-hover-color);
   background-color: transparent;
   color: var(--sub-text-color);
